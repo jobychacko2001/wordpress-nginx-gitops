@@ -1,6 +1,6 @@
 nginx:
   namespace: nginx
-  upstreamUrl: "dev-upstream-url"
+  upstreamUrl: "your-upstream-url"
   upstreamPort: 8081
   replicas: 1
   image:

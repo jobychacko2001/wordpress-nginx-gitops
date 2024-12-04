@@ -1,6 +1,6 @@
 nginx:
   namespace: nginx-prod
-  upstreamUrl: "prod-upstream-url"
+  upstreamUrl: "your-upstream-url"
   upstreamPort: 8080
   replicas: 3  # More replicas for production
   image:

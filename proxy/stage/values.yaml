@@ -1,6 +1,6 @@
 nginx:
   namespace: nginx-stage
-  upstreamUrl: "stage-upstream-url"
+  upstreamUrl: "your-upstream-url"
   upstreamPort: 8082
   replicas: 2
   image:
