@@ -1,6 +1,6 @@
 nginx:
   namespace: nginx
-  upstreamUrl: "my-upstream-service"
+  upstreamUrl: "nginx-proxy"
   upstreamPort: 8081
   replicas: 1
   image:
@@ -9,3 +9,4 @@ nginx:
   service:
     type: LoadBalancer
     port: 80
+
