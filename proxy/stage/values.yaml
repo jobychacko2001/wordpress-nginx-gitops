@@ -1,5 +1,5 @@
 nginx:
-  namespace: nginx-stage
+  namespace: nginx
   upstreamUrl: "your-upstream-url"
   upstreamPort: 8082
   replicas: 2
