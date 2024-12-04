@@ -1,5 +1,5 @@
 nginx:
-  namespace: nginx-dev
+  namespace: nginx
   upstreamUrl: "dev-upstream-url"
   upstreamPort: 8081
   replicas: 1
