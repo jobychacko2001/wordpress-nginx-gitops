@@ -1,6 +1,6 @@
 db:
   labels:
-    app: db
+    app: wp-database
     env: dev
     stack: wordpress
   image:
