@@ -3,8 +3,8 @@ kind: ConfigMap
 metadata:
   name: {{ .Values.db.name }}-configmap
   labels:
-    {{- toYaml .Values.db.labels | nindent 4 }}
+{{- toYaml .Values.db.labels | nindent 4 }}
 data:
-  {{- range $k, $v := .Values.db.configmap }}
+{{- range $k, $v := .Values.db.configmap }}
   {{ $k }}: {{ $v | quote }}
-  {{- end }}
+{{- end }}
