@@ -1,6 +1,6 @@
 nginx:
   namespace: nginx
-  upstreamUrl: "wpapp-wordpress-service.wpapp.svc.cluster.local"
+  upstreamUrl: "wp-app.wpapp.svc.cluster.local"
   upstreamPort: 80
   replicas: 1
   image:
