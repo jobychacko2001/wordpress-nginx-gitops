@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: {{ .Values.db.name }}
   labels:
-      {{- toYaml .Values.db.labels | nindent 4 }}
+{{- toYaml .Values.db.labels | nindent 4 }}
 spec:
   selector:
     matchLabels:
-      {{- toYaml .Values.db.labels | nindent 6 }}
+{{- toYaml .Values.db.labels | nindent 6 }}
   replicas: {{ .Values.db.replicas }}
   template:
     metadata:
       labels:
-          {{- toYaml .Values.db.labels | nindent 8 }}
+{{- toYaml .Values.db.labels | nindent 8 }}
     spec:
       containers:
       - name: {{ .Values.db.name }}
