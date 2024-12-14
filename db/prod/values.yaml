@@ -16,7 +16,7 @@ db:
   containerPorts:
       mysql: 3306
   # volume:
-  #     name: nginx-proxy-cache-store
+  #     name: nginx-proxy-cache-store.
   #     mount:
   #         path: /var/lib/mysql
   #         name: nginx-proxy-cache-store

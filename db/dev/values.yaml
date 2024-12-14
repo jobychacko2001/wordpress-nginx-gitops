@@ -10,7 +10,7 @@ db:
     pullPolicy: Always
   replicas: 1
   configmap:
-    ## KEY: "value"
+    ## KEY: "value."
     MYSQL_DATABASE: wordpress
     MYSQL_USER: wordpress
     APP_ENV: dev
