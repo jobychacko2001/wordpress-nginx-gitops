@@ -8,7 +8,7 @@ wp:
     repository: wordpress
     tag: latest
     pullPolicy: Always
-  replicas: 3
+  replicas: 4
   rollingUpdate:
     maxSurge: 1
     maxUnavailable: 1
